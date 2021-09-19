@@ -16,6 +16,13 @@ export const LoginScreen = () => {
                     placeholder="password"
                     name="password"
                 />
+                <button
+                    type="submit"
+                >
+                    Login
+                </button>
+                <hr />
+                google
             </form>
         </>
     )
