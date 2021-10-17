@@ -1,8 +1,13 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { login } from '../../actions/auth';
 import { useForm } from '../../hooks/useForm';
 
 export const LoginScreen = () => {
+
+    // Accede a un dispatch combinado de los reducers que se usaron para crear el store
+    const dispatch = useDispatch();
 
     const [formValues, handleInputChange] = useForm({
         email: 'italog.penaloza@gmail.com',
@@ -13,7 +18,7 @@ export const LoginScreen = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-
+        dispatch(login(12345, 'Italo'));
     };
 
     return (
