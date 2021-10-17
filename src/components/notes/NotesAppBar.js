@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const NotesAppBar = () => {
     return (
@@ -12,5 +12,5 @@ export const NotesAppBar = () => {
                 Save
             </button>
         </div>
-    )
-}
+    );
+};

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const JournalEntry = () => {
     return (
@@ -23,5 +23,5 @@ export const JournalEntry = () => {
                 <h4>28</h4>
             </div>
         </div>
-    )
-}
+    );
+};
