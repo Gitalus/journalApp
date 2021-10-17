@@ -1,5 +1,5 @@
-import React from 'react'
-import { NotesAppBar } from './NotesAppBar'
+import React from "react";
+import { NotesAppBar } from "./NotesAppBar";
 
 export const NoteScreen = () => {
     return (
@@ -22,5 +22,5 @@ export const NoteScreen = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
