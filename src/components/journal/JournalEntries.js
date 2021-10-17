@@ -1,5 +1,5 @@
-import React from "react";
-import { JournalEntry } from "./JournalEntry";
+import React from 'react';
+import { JournalEntry } from './JournalEntry';
 
 export const JournalEntries = () => {
 

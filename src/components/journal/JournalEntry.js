@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export const JournalEntry = () => {
     return (
@@ -6,8 +6,8 @@ export const JournalEntry = () => {
             <div
                 className="journal__entry-picture"
                 style={{
-                    backgroundSize: "cover",
-                    backgroundImage: "url(https://www.iekakmi-roadtrips.gr/plugins/fullpage/examples/imgs/bg2.jpg)"
+                    backgroundSize: 'cover',
+                    backgroundImage: 'url(https://www.iekakmi-roadtrips.gr/plugins/fullpage/examples/imgs/bg2.jpg)'
                 }}
             ></div>
             <div className="journal__entry-body">
